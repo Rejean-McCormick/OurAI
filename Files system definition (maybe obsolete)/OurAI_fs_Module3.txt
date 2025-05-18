@@ -1,0 +1,54 @@
+/module3-project
+│
+├── /backend                # Backend root folder (Node.js/Express)
+│   ├── /config             # Configuration files
+│   │   └── dbConfig.js     # Database connection config (Sequelize)
+│   │
+│   ├── /controllers        # Controllers (business logic)
+│   │   └── module3Controller.js  # Controller for Module 3 (e.g., Projects)
+│   │
+│   ├── /middleware         # Middleware (authentication, validation, etc.)
+│   │   └── authMiddleware.js  # Authentication middleware (optional)
+│   │
+│   ├── /models             # Database models (Sequelize schemas)
+│   │   └── module3Model.js  # Model/schema for Module 3 (e.g., Projects)
+│   │
+│   ├── /routes             # Express routes
+│   │   └── module3Routes.js  # API routes for Module 3
+│   │
+│   ├── /services           # Service layer (business logic)
+│   │   └── module3Service.js  # Services for Module 3 (e.g., Projects)
+│   │
+│   ├── /tests              # Automated tests
+│   │   └── module3.test.js  # Unit tests for Module 3 using Jest & Supertest
+│   │
+│   ├── app.js              # Main application entry point for Express
+│   ├── .env                # Environment variables (e.g., DB credentials)
+│   ├── package.json        # Backend project dependencies and scripts
+│   └── README.md           # Documentation (optional)
+│
+├── /frontend               # Frontend root folder (React)
+│   ├── /public             # Public assets (HTML, images, etc.)
+│   │   └── index.html      # Main HTML template
+│   │
+│   ├── /src                # Source files for React application
+│   │   ├── /components     # React components
+│   │   │   └── Module3Component.js  # Component for Module 3 (e.g., Projects)
+│   │   │
+│   │   ├── /services       # API interaction layer (Axios)
+│   │   │   └── apiModule3.js  # API calls for Module 3
+│   │   │
+│   │   ├── /state          # State management (Context API or Redux) (Optional)
+│   │   │   └── module3State.js  # Context or Redux for Module 3 (Optional)
+│   │   │
+│   │   ├── /styles         # CSS files for styling
+│   │   │   └── module3Styles.css  # Styles for Module 3 components
+│   │   │
+│   │   ├── App.js          # Main React component (handles routing)
+│   │   ├── index.js        # React application entry point
+│   │   └── .env            # Environment variables for React (e.g., API URL)
+│   │
+│   ├── package.json        # Frontend project dependencies and scripts
+│   └── README.md           # Documentation (optional)
+│
+└── README.md               # Root project documentation (optional)
